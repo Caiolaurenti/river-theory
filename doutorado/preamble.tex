@@ -1,0 +1,38 @@
+% meuestilo.sty
+% Pacotes essenciais
+\documentclass[a4paper]{article}
+
+\author{Caio HLL}
+\date{}
+
+\RequirePackage{amsmath}
+\RequirePackage{amssymb}
+\RequirePackage{amsfonts}
+\RequirePackage{amsthm}
+\RequirePackage{tikz}
+\RequirePackage{tikz-cd}
+
+% Comandos personalizados
+\newcommand{\connect}{%
+    \rule[0.5ex]{1em}{0.4pt}
+}
+
+\newcommand{\Dom}{\text{dom}}
+\newcommand{\Po}{\mathbb{P}}
+
+% Definições de teoremas
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+
+\theoremstyle{definition}
+\newtheorem*{mata}{Axiom of hydrodiversity}
+
+\theoremstyle{remark}
+\newtheorem{example}{Example}
+
+\theoremstyle{definition}
+\newtheorem*{conj}{Conjecture}
+
+\newtheorem{prop}{Proposition}
+\newtheorem{cor}{Corollary}
+\newtheorem{theo}{Theorem}
